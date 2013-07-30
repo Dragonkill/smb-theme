@@ -603,10 +603,9 @@ object {
 
 
 
-
-/* ------------------------------------------ LAYOUT ----------------------------------*/
-
 /*
+ ------------------------------------------ LAYOUT ----------------------------------
+
 Theme Name: Shared Memory Blog
 Layout: Sidebar-Content
 */
@@ -630,6 +629,95 @@ Layout: Sidebar-Content
 }
 
 
+/*
+---------------------- HEADER -----------------------
+*/
+
+/*
+.site-header {
+	background-color: #191a20;
+}
+
+.site-branding {
+	height: 240px;
+}
+
+.main-navigation {
+	height: 50px;
+	background-color: #1c1e31;
+}
+
+.menu {
+	margin:0px auto;
+	display:table;
+}
+
+ul.nav-menu {
+	display:table-row;
+}
+
+ul.nav-menu li:first-child {
+	border-left:thick solid #0099cc;
+}
+
+ul.nav-menu li {
+	height: 50px;
+	float:left;
+	margin: 0;
+	border-right:thick solid #0099cc;
+	display:table-cell;
+}
+
+ul.nav-menu li a {
+
+}
+*/
 
 
+.site-header {
+	background-color: #191a20;
+}
 
+.site-branding {
+	height: 240px;
+}
+
+
+/*
+	http://matthewjamestaylor.com/blog/beautiful-css-centered-menus-no-hacks-full-cross-browser-support
+*/
+
+.main-navigation {
+	height: 50px;
+	background-color: #1c1e31;
+	float:left;
+	width:100%;
+	position:relative;
+	overflow:hidden;
+}
+
+ul.nav-menu {
+	clear:left;
+	float:left;
+	list-style:none;
+	margin:0;
+	padding:0;
+	position:relative;
+	left:50%;
+	text-align:center;
+}
+
+ul.nav-menu li:first-child {
+	border-left:thick solid #0099cc;
+}
+
+ul.nav-menu li {
+	border-right:thick solid #0099cc;
+	height: 50px;
+	display:block;
+	float:left;
+	margin:0;
+	padding:0;
+	position:relative;
+	right:50%;
+=}
