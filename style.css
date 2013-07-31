@@ -614,29 +614,57 @@ Layout: Sidebar-Content
 
 .content-area {
 	float: right;
-	margin: 0 0 0 -25%;
+	margin: 0 0 0 -350px;
 	width: 100%;
 }
 .site-content {
-	margin: 0 0 0 25%;
+	margin: 0 0 0 350px;
 }
 .site-main .widget-area {
 	float: left;
 	overflow: hidden;
-	width: 25%;
-	max-width:380px;
+	width:350px;
 }
 .site-footer {
 	clear: both;
 	width: 100%;
 }
 
+
+/*
+
+.content-area {
+	float: left;
+	text-align:center;
+	width: auto;
+}
+
+
+.site-main .widget-area {
+	float: left;
+	text-align:center;
+	overflow: hidden;
+	width: 25%;
+	max-width:380px;
+}
+
+.site-main .widget-area > *, .content-area {
+	text-align:left;
+}
+
+
+.site-footer {
+	clear: both;
+	width: 100%;
+}
+*/
+
 /*
 ---------------General----------------
 */
 
 body {
-	min-width:800px;
+	min-width:980px;
 /*
 	background-color: #313131;
 */
