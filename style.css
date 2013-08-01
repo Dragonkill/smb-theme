@@ -24,6 +24,20 @@ and Blueprint http://www.blueprintcss.org/
 /* =Reset
 -------------------------------------------------------------- */
 
+
+/*
+---------------------- EMBEDED FONTS ------------------------
+*/
+
+@font-face {
+	font-family: 'LeagueGothic';
+	src: url('fonts/LeagueGothic-Regular.eot');
+	src: local('☺'), url('fonts/LeagueGothic-Regular.woff') format('woff'), url('fonts/LeagueGothic-Regular.ttf') format('truetype'), url('fonts/LeagueGothic-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -123,7 +137,7 @@ p {
 	margin-bottom: 1.5em;
 }
 ul, ol {
-	margin: 0 0 1.5em 3em;
+	margin: 0.1em 0 1.5em 1em;
 }
 ul {
 	list-style: disc;
@@ -612,6 +626,10 @@ Theme Name: Shared Memory Blog
 Layout: Sidebar-Content
 */
 
+/*
+	Fixed size sidebar
+*/
+/*
 .content-area {
 	float: right;
 	margin: 0 0 0 -350px;
@@ -629,10 +647,35 @@ Layout: Sidebar-Content
 	clear: both;
 	width: 100%;
 }
+*/
 
 
 /*
+	% size sidebar
+*/
+.content-area {
+	float: right;
+	margin: 0 0 0 -21%;
+	width: 100%;
+}
+.site-content {
+	margin: 0 0 0 21%;
+}
+.site-main .widget-area {
+	float: left;
+	overflow: hidden;
+	width:21%;
+}
+.site-footer {
+	clear: both;
+	width: 100%;
+}
 
+
+/*
+	% and max size sidebar
+*/
+/*
 .content-area {
 	float: left;
 	text-align:center;
@@ -666,20 +709,29 @@ Layout: Sidebar-Content
 body {
 	min-width:980px;
 /*
-	background-color: #313131;
+	background-color: #202020;
 */
 }
 
-.widget-area > *, .site-content > *{
+ .site-content > *{
 	margin-top: 30px;
 }
+
+a:active, a:hover {
+	color: #92CDED;
+}
+a:visited {
+	color: #59773C;
+}
+
+
 /*
 ---------------------- HEADER -----------------------
 */
 
 
 .site-header {
-	background-color: #313131;
+	background-color: #202020;
 }
 
 
@@ -714,23 +766,31 @@ img.smb-logo {
 */
 .main-navigation {
 	height: 50px;
-	background-color: #313131;
+	background-color: #202020;
 	float:left;
 	width:100%;
 	position:relative;
+/*
 	overflow:hidden;
-	border-bottom:4px solid #5DC4EA;
-	border-top:4px solid #5DC4EA;
+*/
+	border-bottom:6px solid #5DC4EA;
+	border-top:6px solid #5DC4EA;
 }
 
 ul.nav-menu {
 	clear:left;
+/*
 	float:left;
+*/
+	float:right;
 	list-style:none;
 	margin:0;
 	padding:0;
 	position:relative;
+/*
 	left:50%;
+*/
+	right:50%;
 	text-align:center;
 }
 
@@ -746,10 +806,19 @@ ul.nav-menu li {
 	margin:0;
 	padding:0px 15px;
 	position:relative;
+/*
 	right:50%;
+*/
+	left:50%;
 	text-align: center;
 }
 
+ul.nav-menu li:hover {
+	background-color: #5DC4EA;
+}
+ul.nav-menu li:hover > a {
+	color: black;
+}
 /*
 * https://github.com/theleagueof/league-gothic
 * http://www.dafont.com/abstract.font?fpp=50&text=ACCUEIL
@@ -760,7 +829,7 @@ ul.nav-menu li a {
 	font-family: 'Roboto', sans-serif;
 	font-size: 130%;
 	font-weight: bold;
-	color:#FFFFFF;
+	color:#DDDDDD;
 	line-height: 50px;
 	vertical-align: middle;
 }
@@ -770,33 +839,86 @@ ul.nav-menu li a {
 ---------------------------------- SIDEBAR -----------------------------------
 */
 .widget-area > * {
+/*
 	margin-left:20px;
+*/
 }
 .widget-area {
-	background-color: #313131;
+	background-color: #5DC4EA;
 	height: 100%;
+	width:100;
+}
+.sidebar-background {
+	background-color: #202020;
+	height: 100%;
+	padding-bottom:24px;
+	margin-right:7px;
+	padding-left:20px;
+	padding-top:30px;
+	margin-bottom:0;
+}
+
+.widget-area ul:last-child {
+	margin-bottom:0;
+}
+
+.widget:last-child {
+	margin-bottom:0;
 }
 
 .search-field {
-	width: 85%;
+	width: 93%;
+}
+
+.widget-title {
+	font-family:LeagueGothic, Verdana , Arial , sans serif;
+	color: #DDDDDD;
+	font-size: 200%;
+	border-bottom:medium solid #5DC4EA;
+	line-height: 1;
+	margin-right:5%;
 }
 
 
+.widget-area ul {
+	list-style-type:none;
+	font-family: Verdana , Arial , sans serif;
+/*
+	font-weight: bold;
+*/
+}
+
+.widget-area ul a:link {
+	color: #A67C4B;
+	text-decoration: none;
+/*
+	color: #A67C4B;
+*/
+/*
+	font-weight: bold;
+*/
+}
+.widget-area ul a:hover {
+	text-decoration: underline; 
+	color: #92CDED;
+}
+
+.widget-area ul a:visited:hover {
+	text-decoration: underline;
+	color: #92CDED;
+}
 
 
-
-
-
+.post-date {
+	color: #666666;
+}
 
 /*
 -------------------------------- CONTENT ---------------------------------------
 */
 
 .site-content {
-	padding-left: 4%;
-/*
-	background-color: #FFFFFF;
-*/
+	padding-left: 3%;
 }
 
 
@@ -817,5 +939,19 @@ ul.nav-menu li a {
 */
 
 .site-footer {
-	background-color: #313131;
+	background-color: #202020;
+	height: 80px;
+	text-align: center;
+	color:#DDDDDD;
+	border-top:solid 6px #5DC4EA;
+}
+
+.theme-footer {
+	margin-bottom:0;
+	margin-top:8px;
+}
+
+.licence {
+	display: block;
+	margin-top:5px;
 }
