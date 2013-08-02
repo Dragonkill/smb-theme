@@ -632,16 +632,16 @@ Layout: Sidebar-Content
 /*
 .content-area {
 	float: right;
-	margin: 0 0 0 -350px;
+	margin: 0 0 0 -420px;
 	width: 100%;
 }
 .site-content {
-	margin: 0 0 0 350px;
+	margin: 0 0 0 420px;
 }
 .site-main .widget-area {
 	float: left;
 	overflow: hidden;
-	width:350px;
+	width:420px;
 }
 .site-footer {
 	clear: both;
@@ -721,7 +721,7 @@ a:active, a:hover {
 	color: #92CDED;
 }
 a:visited {
-	color: #59773C;
+	color: #755937;
 }
 
 
@@ -845,6 +845,7 @@ ul.nav-menu li a {
 }
 .widget-area {
 	background-color: #5DC4EA;
+	color: #666666;
 	height: 100%;
 	width:100;
 }
@@ -889,16 +890,14 @@ ul.nav-menu li a {
 }
 
 .widget-area ul a:link {
-	color: #A67C4B;
+	color: #E1B941;
+/*
+	color: #4169E1;
+*/
 	text-decoration: none;
-/*
-	color: #A67C4B;
-*/
-/*
-	font-weight: bold;
-*/
+
 }
-.widget-area ul a:hover {
+.widget-area ul a:hover, .widget-area ul a:active {
 	text-decoration: underline; 
 	color: #92CDED;
 }
@@ -918,11 +917,14 @@ ul.nav-menu li a {
 */
 
 .site-content {
-	padding-left: 3%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
 }
 
 
-
+.nav-previous a:visited {
+	
+}
 
 
 
@@ -954,4 +956,8 @@ ul.nav-menu li a {
 .licence {
 	display: block;
 	margin-top:5px;
+}
+
+.theme-footer a {
+	color: #E1B941;
 }
