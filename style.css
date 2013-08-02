@@ -921,20 +921,9 @@ ul.nav-menu li a {
 
 .site-content {
 	padding-left: 2.5%;
-	padding-right: 2.5%;
+	padding-right: 5%;
 	font-family: 'Droid Sans', sans-serif;
 }
-/*
-.site-content a {
-	color: royalblue;
-}
-.site-content a:hover,.site-content a:focus,.site-content a:active {
-	color: royalblue;
-}
-.site-content a:visited {
-	color: royalblue;
-}
-*/
 
 .entry-title {
 	font-family:LeagueGothic,​Verdana,​Arial,​sans serif;
@@ -949,12 +938,16 @@ ul.nav-menu li a {
 }
 
 .post {
+	padding-bottom: 10px;
+	margin-top: 40px ;
 	border-bottom: 5px solid #33b5e5;
 }
 
-.site-content .post:last-child {
-	border-bottom:0;
+/*
+.post:last-of-type {
+	border-bottom: 0px;
 }
+*/
 
 
 .entry-header time {
@@ -966,6 +959,14 @@ ul.nav-menu li a {
 
 .entry-content, .entry-meta {
 	font-size: 1.8rem;
+}
+
+.paging-navigation a:visited {
+	color:royalblue;
+}
+
+.nav-next a:hover {
+	color:	midnightblue;
 }
 
 /*

@@ -178,7 +178,7 @@ function shared_memory_blog_posted_on() {
 		esc_html( get_the_modified_date() )
 	);
 
-	printf( __( '<span class="posted-on">%1$s</span><span class="byline"> by %2$s</span>', 'shared-memory-blog' ),
+	printf( __( '<span class="posted-on">%1$s</span><span class="byline"> par %2$s</span>', 'shared-memory-blog' ),
 		//~ sprintf( '<a href="%1$s" title="%2$s" rel="bookmark">%3$s</a>',
 			//~ esc_url( get_permalink() ),
 			//~ esc_attr( get_the_time() ),

@@ -2,195 +2,207 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: _s 1.3-wpcom\n"
+"Project-Id-Version: _s french translation\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
 "POT-Creation-Date: 2013-05-28 16:41:49+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2013-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2013-08-02 20:40+0100\n"
+"Last-Translator: Thomas Kuntz <thomaskuntz67@gmail.com>\n"
+"Language-Team: Thomas Kuntz <thomaskuntz67@gmail.com>\n"
+"Language: Français (French)\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: 404.php:15
 msgid "Oops! That page can&rsquo;t be found."
-msgstr ""
+msgstr "Shazbot! Cette page est introuvable"
 
 #: 404.php:19
 msgid ""
 "It looks like nothing was found at this location. Maybe try one of the links "
 "below or a search?"
 msgstr ""
+"Il semblerait que rien ne se trouve à cette emplacement. Essayez peut être "
+"un des liens ci-dessous, ou bien une recherche ?"
 
 #: 404.php:27
 msgid "Most Used Categories"
-msgstr ""
+msgstr "Catégories Les Plus Utilisées"
 
 #. translators: %1$s: smiley
 #: 404.php:44
 msgid "Try looking in the monthly archives. %1$s"
-msgstr ""
+msgstr "Essayez de voir dans les archives mensuelles. %1$s"
 
 #: archive.php:21
 msgid "Category Archives: %s"
-msgstr ""
+msgstr "Archives des Catégories. %s"
 
 #: archive.php:24
 msgid "Tag Archives: %s"
-msgstr ""
+msgstr "Archives des Tag. %s"
 
 #: archive.php:31
 msgid "Author Archives: %s"
-msgstr ""
+msgstr "Archives des Auteurs. %s"
 
 #: archive.php:39
 msgid "Daily Archives: %s"
-msgstr ""
+msgstr "Archives Journalières. %s"
 
 #: archive.php:42
 msgid "Monthly Archives: %s"
-msgstr ""
+msgstr "Archives Mensuelles. %s"
 
 #: archive.php:45
 msgid "Yearly Archives: %s"
-msgstr ""
+msgstr "Archives Annuelles. %s"
 
 #: archive.php:48
 msgid "Asides"
-msgstr ""
+msgstr "Apartés"
 
 #: archive.php:51
 msgid "Images"
-msgstr ""
+msgstr "Images"
 
 #: archive.php:54
 msgid "Videos"
-msgstr ""
+msgstr "Vidéos"
 
 #: archive.php:57
 msgid "Quotes"
-msgstr ""
+msgstr "Citations"
 
 #: archive.php:60
 msgid "Links"
-msgstr ""
+msgstr "Liens"
 
 #: archive.php:63 sidebar.php:17
 msgid "Archives"
-msgstr ""
+msgstr "Archives"
 
 #: comments.php:29
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Un commentaire sur &ldquo;%2$s&rdquo;"
 
 #: comments.php:36 comments.php:56
 msgid "Comment navigation"
-msgstr ""
+msgstr "Navigation de commentaire"
 
 #: comments.php:37 comments.php:57
 msgid "&larr; Older Comments"
-msgstr ""
+msgstr "&larr;Commentaires plus vieux"
 
 #: comments.php:38 comments.php:58
 msgid "Newer Comments &rarr;"
-msgstr ""
+msgstr "Commentaires plus neuf &arr;"
 
 #: comments.php:68
 msgid "Comments are closed."
-msgstr ""
+msgstr "Les commentaires sont fermés."
 
 #: content-page.php:18 content-single.php:20 content.php:27 image.php:95
 msgid "Pages:"
-msgstr ""
+msgstr "Pages:"
 
 #: content-page.php:23 content-single.php:61 content.php:63 image.php:34
 #: image.php:112 inc/template-tags.php:71 inc/template-tags.php:90
 msgid "Edit"
-msgstr ""
+msgstr "Éditer"
 
 #. translators: used between list items, there is a space after the comma
 #: content-single.php:29 content-single.php:32 content.php:38 content.php:48
 msgid ", "
-msgstr ""
+msgstr ","
 
 #: content-single.php:37
 msgid ""
 "This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink "
 "to %4$s\" rel=\"bookmark\">permalink</a>."
 msgstr ""
+"Cette entrée a été taggé avec %2$s. Marque-page la avec le <a href=\"%3$s\" "
+"title=\"Lien permanent vers %4$s\" rel=\"bookmark\">lien permanent</a>."
 
 #: content-single.php:39
 msgid ""
 "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark"
 "\">permalink</a>."
 msgstr ""
+"Marque-page avec le<a href=\"%3$s\" title=\"Lien permanent vers %4$s\" rel="
+"\"bookmark\">lien permanent</a>."
 
 #: content-single.php:45
 msgid ""
 "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" "
 "title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
 msgstr ""
+"Cette entrée a été posté dans %1$s et taggé avec %2$s. Marque-page la avec "
+"le <a href=\"%3$s\" title=\"Lien permanent vers %4$s\" rel=\"bookmark\">lien "
+"permanent</a>."
 
 #: content-single.php:47
 msgid ""
 "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title="
 "\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
 msgstr ""
+"Cette entrée a été posté dans %1$s. Marque-page la avec le <a href=\"%3$s\" "
+"title=\"Lien permanent vers %4$s\" rel=\"bookmark\">lien permanent</a>."
 
 #: content.php:24
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
+msgstr "Continuer de lire <span class=\"meta-nav\">&rarr;</span>"
 
 #: content.php:42
 msgid "Posted in %1$s"
-msgstr ""
+msgstr "Posté dans %1$s"
 
 #: content.php:53
 msgid "Tagged %1$s"
-msgstr ""
+msgstr "Taggé avec %1$s"
 
 #: content.php:60
 msgid "Leave a comment"
-msgstr ""
+msgstr "Laisse un commentaire"
 
 #: content.php:60
 msgid "1 Comment"
-msgstr ""
+msgstr "1 Commentaire"
 
 #: content.php:60
 msgid "% Comments"
-msgstr ""
+msgstr "% Commentaires"
 
 #: footer.php:16
 msgid "A Semantic Personal Publishing Platform"
-msgstr ""
+msgstr "Une plate-forme de publication personnelle sémantique"
 
 #: footer.php:16
 msgid "Proudly powered by %s"
-msgstr ""
+msgstr "Fièrement propulsé par %s"
 
 #: footer.php:18
 msgid "Theme: %1$s by %2$s."
-msgstr ""
+msgstr "Theme: %1$s by %2$s."
 
 #: functions.php:48
 msgid "Primary Menu"
-msgstr ""
+msgstr "Menu Principale"
 
 #: functions.php:95
 msgid "Sidebar"
-msgstr ""
+msgstr "Sidebar"
 
 #: header.php:31
 msgid "Menu"
-msgstr ""
+msgstr "Menu"
 
 #: header.php:32
 msgid "Skip to content"
-msgstr ""
+msgstr "Passer au contenu"
 
 #: image.php:23
 msgid ""
@@ -199,14 +211,18 @@ msgid ""
 "image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" "
 "rel=\"gallery\">%8$s</a>"
 msgstr ""
+"Publié le<span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> à <a href=\"%3$s\" title=\"lien vers l'image "
+"original\">%4$s &times; %5$s</a> dans <a href=\"%6$s\" title=\"Revenir à %7$s"
+"\" rel=\"gallery\">%8$s</a>"
 
 #: image.php:38
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
-msgstr ""
+msgstr "<span class=\"meta-nav\">&larr;</span> Précédent"
 
 #: image.php:39
 msgid "Next <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
+msgstr "Suivant <span class=\"meta-nav\">&rarr;</span>"
 
 #: image.php:104
 msgid ""
@@ -214,6 +230,9 @@ msgid ""
 "comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
 "title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
 msgstr ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a "
+"comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
+"title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
 
 #: image.php:106
 msgid ""
@@ -221,59 +240,64 @@ msgid ""
 "\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
 "\">Trackback URL</a>."
 msgstr ""
+"Les commentaires sont fermés, mais vous pouvez laisser un trackback <a class="
+"\"trackback-link\" href=\"%s\" title=\"Trackback URL pour ce post\" rel="
+"\"trackback\">Trackback URL</a>."
 
 #: image.php:108
 msgid ""
 "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
 "\" title=\"Post a comment\">post a comment</a>."
 msgstr ""
+"Les trackbacks sont fermés, mais vous pouvez <a class=\"comment-link\" href="
+"\"#réponse\" title=\"laisser un commentaire\">laisser un commentaire</a>."
 
 #: image.php:110
 msgid "Both comments and trackbacks are currently closed."
-msgstr ""
+msgstr "Commentaires et trackbacks sont actuellement fermés."
 
 #: inc/extras.php:66
 msgid "Page %s"
-msgstr ""
+msgstr "Page %s"
 
 #: inc/template-tags.php:34
 msgid "Post navigation"
-msgstr ""
+msgstr "Navigation de post"
 
 #: inc/template-tags.php:38
 msgctxt "Previous post link"
 msgid "&larr;"
-msgstr ""
+msgstr "&larr;"
 
 #: inc/template-tags.php:39
 msgctxt "Next post link"
 msgid "&rarr;"
-msgstr ""
+msgstr "&rarr;"
 
 #: inc/template-tags.php:44
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr ""
+msgstr "<span class=\"meta-nav\">&larr;</span> Post plus ancien"
 
 #: inc/template-tags.php:48
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
+msgstr "Post plus récent <span class=\"meta-nav\">&rarr;</span>"
 
 #: inc/template-tags.php:71
 msgid "Pingback:"
-msgstr ""
+msgstr "Signal de retour (Pingback)"
 
 #: inc/template-tags.php:81
 msgid "%s <span class=\"says\">says:</span>"
-msgstr ""
+msgstr "%s <span class=\"dit\">says:</span>"
 
 #: inc/template-tags.php:87
 msgctxt "1: date, 2: time"
 msgid "%1$s at %2$s"
-msgstr ""
+msgstr "%1$s à %2$s"
 
 #: inc/template-tags.php:94
 msgid "Your comment is awaiting moderation."
-msgstr ""
+msgstr "Votre commentaire est en attente de validation par la modération."
 
 #: inc/template-tags.php:117
 msgid ""
@@ -282,62 +306,72 @@ msgid ""
 "<span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s"
 "\" rel=\"author\">%7$s</a></span></span>"
 msgstr ""
+"Posté le <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class="
+"\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> par "
+"<span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s"
+"\" rel=\"author\">%7$s</a></span></span>"
 
 #: inc/template-tags.php:123
 msgid "View all posts by %s"
-msgstr ""
+msgstr "Voir tout les posts par %s"
 
 #: no-results.php:13
 msgid "Nothing Found"
-msgstr ""
+msgstr "Rien trouvé"
 
 #: no-results.php:19
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
+"Prêt à publier votre premier post ? <a href=\"%1$s\">Viens commencer par "
+"içi</a>."
 
 #: no-results.php:23
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
 msgstr ""
+"Désolé, mais rien ne correspond à votre recherche. Essayez s'il vous plait "
+"avec de nouveau mot-clés."
 
 #: no-results.php:28
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
+"Il semble que nous ne pouvons trouver ce que vous demandez. Peut-être "
+"qu'effectuer une recherche vous aiderait."
 
 #: search.php:16
 msgid "Search Results for: %s"
-msgstr ""
+msgstr "Résultat de la recherche pour: %s"
 
 #: searchform.php:9
 msgctxt "assistive text"
 msgid "Search"
-msgstr ""
+msgstr "Chercher"
 
 #: searchform.php:10
 msgctxt "placeholder"
 msgid "Search &hellip;"
-msgstr ""
+msgstr "Chercher &hellip;"
 
 #: searchform.php:11
 msgctxt "submit button"
 msgid "Search"
-msgstr ""
+msgstr "Chercher"
 
 #: sidebar.php:24
 msgid "Meta"
-msgstr ""
+msgstr "Méta"
 
 #. Theme Name of the plugin/theme
 msgid "_s"
-msgstr ""
+msgstr "_s"
 
 #. Theme URI of the plugin/theme
 msgid "http://underscores.me"
-msgstr ""
+msgstr "http://underscores.me"
 
 #. Description of the plugin/theme
 msgid ""
@@ -346,11 +380,15 @@ msgid ""
 "Theme</em>. Instead try turning me into the next, most awesome, WordPress "
 "theme out there. That's what I'm here for."
 msgstr ""
+"Hi. I'm a starter theme called <code>_s</code>, or <em>underscores</em>, if "
+"you like. I'm a theme meant for hacking so don't use me as a <em>Parent "
+"Theme</em>. Instead try turning me into the next, most awesome, WordPress "
+"theme out there. That's what I'm here for."
 
 #. Author of the plugin/theme
 msgid "Automattic"
-msgstr ""
+msgstr "Automattic"
 
 #. Author URI of the plugin/theme
 msgid "http://automattic.com/"
-msgstr ""
+msgstr "http://automattic.com/"
