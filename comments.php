@@ -26,7 +26,9 @@ if ( post_password_required() )
 	<?php if ( have_comments() ) : ?>
 		<h2 class="comments-title">
 			<?php
-				printf( _nx( 'One thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', 'shared-memory-blog' ),
+				//~ printf( _nx( 'One thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', 'shared-memory-blog' ),
+					//~ number_format_i18n( get_comments_number() ), '<span>' . get_the_title() . '</span>' );
+				printf( _nx( 'Un commentaire', '%1$s Commentaires', get_comments_number(), 'comments title'),
 					number_format_i18n( get_comments_number() ), '<span>' . get_the_title() . '</span>' );
 			?>
 		</h2>

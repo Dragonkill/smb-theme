@@ -21,8 +21,7 @@ and Blueprint http://www.blueprintcss.org/
 */
 
 
-/* =Reset
--------------------------------------------------------------- */
+
 
 
 /*
@@ -37,6 +36,9 @@ and Blueprint http://www.blueprintcss.org/
 	font-style: normal;
 }
 
+
+/* =Reset
+-------------------------------------------------------------- */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -717,12 +719,6 @@ body {
 	margin-top: 30px;
 }
 
-a:active, a:hover {
-	color: #92CDED;
-}
-a:visited {
-	color: #59773C;
-}
 
 
 /*
@@ -838,6 +834,14 @@ ul.nav-menu li a {
 /*
 ---------------------------------- SIDEBAR -----------------------------------
 */
+
+.widget-area a:active,.widget-area a:hover {
+	color: #92CDED;
+}
+.widget-area a:visited {
+	color: #59773C;
+}
+
 .widget-area > * {
 /*
 	margin-left:20px;
@@ -918,21 +922,102 @@ ul.nav-menu li a {
 */
 
 .site-content {
-	padding-left: 3%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	font-family: 'Droid Sans', sans-serif;
+}
+/*
+.site-content a {
+	color: royalblue;
+}
+.site-content a:hover,.site-content a:focus,.site-content a:active {
+	color: royalblue;
+}
+.site-content a:visited {
+	color: royalblue;
+}
+*/
+
+.entry-title {
+	font-family:LeagueGothic,​Verdana,​Arial,​sans serif;
+	font-size:350%;
+	line-height: 100%;
+	color: #222222;
+}
+
+.entry-title a {
+	color: #222222;
+	text-decoration: none;
+}
+
+.post {
+	border-bottom: 5px solid #33b5e5;
+}
+
+.site-content .post:last-child {
+	border-bottom:0;
 }
 
 
+.entry-header time {
+	font-family:LeagueGothic,​Verdana,​Arial,​sans serif;
+	font-size:150%;
+	line-height: 100%;
+	color: 	#636363;
+}
+
+.entry-content, .entry-meta {
+	font-size: 1.8rem;
+}
+
+/*
+----------------------- COMMENTS --------------------------------
+*/
 
 
+.avatar {
+/*
+	display: none;
+*/
+}
+.comment-meta > * {
+	display: inline;
+	border-bottom: 2px solid #33b5e5;
+}
+
+.comment-meta {
+	font-family: 'Droid Sans', sans-serif;
+}
+
+.comment-meta a {
+	text-decoration:none;
+}
+
+.comment-meta a:hover {
+	text-decoration: underline;
+}
+
+.comment-metadata a{
+	color: #404040;
+}
+
+.comment-meta .url, .comment-meta .fn {
+	font-style:normal;
+}
 
 
+.children {
+	list-style:none;
+}
+.comments-area article {
+	background-color : #F5F5F5;
+	margin:10px 0;
+	padding : 10px 10px;
+}
 
-
-
-
-
-
-
+.comments-area p {
+	margin-bottom:5px;
+}
 
 /*
 -------------------------- FOOTER -----------------------------------------
@@ -944,6 +1029,13 @@ ul.nav-menu li a {
 	text-align: center;
 	color:#DDDDDD;
 	border-top:solid 6px #5DC4EA;
+}
+
+.site-footer a:active,.site-footer a:hover {
+	color: #92CDED;
+}
+.site-footer a:visited {
+	color: #92CDED;
 }
 
 .theme-footer {

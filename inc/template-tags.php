@@ -78,13 +78,14 @@ function shared_memory_blog_comment( $comment, $args, $depth ) {
 			<footer class="comment-meta">
 				<div class="comment-author vcard">
 					<?php if ( 0 != $args['avatar_size'] ) echo get_avatar( $comment, $args['avatar_size'] ); ?>
-					<?php printf( __( '%s <span class="says">says:</span>', 'shared-memory-blog' ), sprintf( '<cite class="fn">%s</cite>', get_comment_author_link() ) ); ?>
+					<!--<?php printf( __( '%s <span class="says">says:</span>', 'shared-memory-blog' ), sprintf( '<cite class="fn">%s</cite>', get_comment_author_link() ) ); ?> -->
+					<?php printf( __( '%s', 'shared-memory-blog' ), sprintf( '<cite class="fn">%s</cite>', get_comment_author_link() ) ); ?>
 				</div><!-- .comment-author -->
 
 				<div class="comment-metadata">
 					<a href="<?php echo esc_url( get_comment_link( $comment->comment_ID ) ); ?>">
 						<time datetime="<?php comment_time( 'c' ); ?>">
-							<?php printf( _x( '%1$s at %2$s', '1: date, 2: time', 'shared-memory-blog' ), get_comment_date(), get_comment_time() ); ?>
+							<?php printf( _x( 'le %1$s à %2$s', '1: date, 2: time', 'shared-memory-blog' ), get_comment_date(), get_comment_time() ); ?>
 						</time>
 					</a>
 					<?php edit_comment_link( __( 'Edit', 'shared-memory-blog' ), '<span class="edit-link">', '</span>' ); ?>
@@ -177,10 +178,13 @@ function shared_memory_blog_posted_on() {
 		esc_html( get_the_modified_date() )
 	);
 
-	printf( __( '<span class="posted-on">Posted on %1$s</span><span class="byline"> by %2$s</span>', 'shared-memory-blog' ),
-		sprintf( '<a href="%1$s" title="%2$s" rel="bookmark">%3$s</a>',
-			esc_url( get_permalink() ),
-			esc_attr( get_the_time() ),
+	printf( __( '<span class="posted-on">%1$s</span><span class="byline"> by %2$s</span>', 'shared-memory-blog' ),
+		//~ sprintf( '<a href="%1$s" title="%2$s" rel="bookmark">%3$s</a>',
+			//~ esc_url( get_permalink() ),
+			//~ esc_attr( get_the_time() ),
+			//~ $time_string
+		//~ ),
+		sprintf( '%1$s',
 			$time_string
 		),
 		sprintf( '<span class="author vcard"><a class="url fn n" href="%1$s" title="%2$s">%3$s</a></span>',
