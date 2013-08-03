@@ -631,7 +631,6 @@ Layout: Sidebar-Content
 /*
 	Fixed size sidebar
 */
-/*
 .content-area {
 	float: right;
 	margin: 0 0 0 -420px;
@@ -649,12 +648,12 @@ Layout: Sidebar-Content
 	clear: both;
 	width: 100%;
 }
-*/
 
 
 /*
 	% size sidebar
 */
+/*
 .content-area {
 	float: right;
 	margin: 0 0 0 -21%;
@@ -672,6 +671,7 @@ Layout: Sidebar-Content
 	clear: both;
 	width: 100%;
 }
+*/
 
 
 /*
