@@ -29,7 +29,7 @@
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 		-->
 		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-			<img class="smb-logo" width="789" height="197" alt="Shared Memory Blog logo" src="<?php bloginfo('template_directory'); ?>/images/Bannière - V1.png"/>
+			<img class="smb-logo" width="789" height="197" alt="Shared Memory Blog logo" src="<?php bloginfo('template_directory'); ?>/images/bannière_tmp.gif"/>
 		</a>
 		</div>
 

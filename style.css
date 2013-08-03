@@ -738,9 +738,9 @@ body {
 
 .site-branding > a {
 	display: block;
-	height:197px;
+	height:155px;
 	width:789px;
-	margin:22px auto;
+	margin:42.5px auto;
 	float:clear;
 }
 
@@ -965,7 +965,7 @@ ul.nav-menu li a {
 	color:royalblue;
 }
 
-.nav-next a:hover {
+.paging-navigation a:hover {
 	color:	midnightblue;
 }
 
@@ -1030,12 +1030,15 @@ ul.nav-menu li a {
 	border-top:solid 6px #5DC4EA;
 }
 
+
+
+.site-footer a, .site-footer a:visited {
+	color: #E1B941;
+}
 .site-footer a:active,.site-footer a:hover {
 	color: #92CDED;
 }
-.site-footer a:visited {
-	color: #92CDED;
-}
+
 
 .theme-footer {
 	margin-bottom:0;
