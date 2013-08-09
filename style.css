@@ -971,6 +971,9 @@ ul.nav-menu li a {
 
 .entry-content, .entry-meta {
 	font-size: 1.8rem;
+}
+
+footer[class~="entry-meta"] {
 	margin-top: 50px;
 }
 
