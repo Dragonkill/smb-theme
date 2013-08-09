@@ -530,9 +530,11 @@ a:active {
 }
 .wp-caption-text {
 	text-align: center;
+	
 }
 .wp-caption .wp-caption-text {
-	margin:0;
+	font-size: 0.75em;
+    margin: 0 5px;
 }
 .site-content .gallery {
 	margin-bottom: 1.5em;
