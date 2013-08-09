@@ -523,7 +523,7 @@ a:active {
 	margin-bottom: 1.5em;
 	max-width: 100%;
 }
-.wp-caption img[class*="wp-image-"] {
+.wp-caption img{
 	display: block;
 	margin: 1.2% auto 0;
 	max-width: 98%;
@@ -532,7 +532,7 @@ a:active {
 	text-align: center;
 }
 .wp-caption .wp-caption-text {
-	margin: 0.8075em 0;
+	margin:0;
 }
 .site-content .gallery {
 	margin-bottom: 1.5em;
