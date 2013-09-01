@@ -743,6 +743,7 @@ body {
 
 .site-branding > a {
 	display: block;
+	position: relative;
 	height:250px;
 	width:1000px;
 	margin:0 auto;
@@ -758,11 +759,24 @@ body {
 /*
 Deplacer le logo a droite pour qu'il soit centré
 */
-img.smb-logo {
-
+.smb-logo {
+	position: absolute;
+	z-index: 100;
 }
 
+.smb-logo-icon1 {
+	position: absolute;
+	z-index: 60;
+	top: 13px;
+	left: 14px;
+}
 
+.smb-logo-icon2 {
+	position: absolute;
+	z-index: 60;
+	top: 13px;
+	left: 717px;
+}
 
 /*
 	http://matthewjamestaylor.com/blog/beautiful-css-centered-menus-no-hacks-full-cross-browser-support
