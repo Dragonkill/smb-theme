@@ -713,7 +713,7 @@ Layout: Sidebar-Content
 */
 
 body {
-	min-width:980px;
+	min-width:1380px;
 /*
 	background-color: #202020;
 */
@@ -736,7 +736,7 @@ body {
 
 .site-branding {
 	width: 100%;
-	height: 250px;
+	height: 289px;
 	margin-top: 30px;
 }
 
@@ -744,8 +744,10 @@ body {
 .site-branding > a {
 	display: block;
 	position: relative;
-	height:250px;
-	width:1000px;
+	height:289px;
+/*
+	width:988px;
+*/
 	margin:0 auto;
 /*
 	padding-top: 50px;
@@ -764,11 +766,16 @@ Deplacer le logo a droite pour qu'il soit centré
 	z-index: 100;
 }
 
+
 .smb-logo-icon1 {
 	position: absolute;
 	z-index: 60;
 	top: 13px;
 	left: 14px;
+	width: 270px;
+	height: 202px;
+	background-color: #000000;
+	text-align: center;
 }
 
 .smb-logo-icon2 {
@@ -776,6 +783,73 @@ Deplacer le logo a droite pour qu'il soit centré
 	z-index: 60;
 	top: 13px;
 	left: 717px;
+	width: 270px;
+	height: 202px;
+	background-color: #000000;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+.smb-logo-center {
+	position: absolute;
+	z-index: 75;
+	height: 289px;
+	width: 489px;
+/*
+	left: 249px;
+*/
+}
+
+.smb-logo-left-screen {
+	position: absolute;
+	z-index: 100;
+	height: 250px;
+/*
+	width: 250px;
+*/
+}
+
+.smb-logo-right-screen {
+	position: absolute;
+	z-index: 100;
+	height: 250px;
+/*
+	width: 250px;
+	left : 737px;
+*/
+}
+
+
+.smb-logo-icon11 {
+	position: absolute;
+	z-index: 80;
+	top: 5px;
+	left: 3px;
+/*
+	width: 270px;
+*/
+	height: 240px;
+	background-color: #000000;
+	text-align: center;
+}
+
+.smb-logo-icon22 {
+	position: absolute;
+	z-index: 80;
+	top: 5px;
+	right: 3px;
+/*
+	width: 270px;
+*/
+	height: 240px;
+	background-color: #000000;
+	text-align: center;
 }
 
 /*
