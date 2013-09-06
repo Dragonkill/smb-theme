@@ -36,21 +36,7 @@
 			//~ $screen_rand_1 = 0;
 			//~ $screen_rand_2 = 0;
 		?>
-		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home" style="width : <?php echo ( $screen_logo_array[$screen_rand_1][1] + $screen_logo_array[$screen_rand_2][1] + 489 - 2) ?>px;" >
-		<?php
-
-			echo "<div class='smb-logo-left-screen' style=\"width : " . $screen_logo_array[$screen_rand_1][1] . "px;\">";
-				echo "<div class=\"smb-logo-screen-background\">" . ((isset($image_rand_1))? "<img alt=\"Shared Memory Blog icons 1\" src=\"" . get_bloginfo('template_directory') . "/". $screen_logo_array[$screen_rand_1][2] ."/" . $image_rand_1 ."\"/>" : "") . "</div>";
-				echo "<img alt='Shared Memory Blog logo left screen' src=\"" . get_bloginfo("template_directory") . "/images/" . $screen_logo_array[$screen_rand_1][0] . "\" />";
-			echo "</div>";
-			echo "<div class='smb-logo-right-screen' style=\"width : " . $screen_logo_array[$screen_rand_2][1] . "px; left : " . ($screen_logo_array[$screen_rand_1][1] + 489 - 1)  . "px;\" >";
-				echo "<div class=\"smb-logo-screen-background\">" . ((isset($image_rand_2))? "<img alt=\"Shared Memory Blog icons 2\" src=\"" . get_bloginfo('template_directory') . "/". $screen_logo_array[$screen_rand_2][2] ."/" . $image_rand_2 . "\"/>" : "") . "</div>";
-				echo "<img alt='Shared Memory Blog logo left screen' src=\"" . get_bloginfo("template_directory") . "/images/" . $screen_logo_array[$screen_rand_2][0] . "\" />";
-			echo "</div>";
-			
-			echo "<img class='smb-logo-center'  alt='Shared Memory Blog logo' src=\"" . get_bloginfo("template_directory") . "/images/Bannière - V3.png\" style=\"left: " . ($screen_logo_array[$screen_rand_1][1] - 1) . "px;\" />";
-		?>
-		</a>
+		
 		</div>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
