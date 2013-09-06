@@ -28,14 +28,7 @@
 		<!--	<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 		-->
-		<?php
-			$screen_logo_array = [ ["screen 1_1.png", 250 , "logo_icons_1_1", 412 , 220 ], ["screen 4_3.png", 334 , "logo_icons_4_3", 305 , 222 ], ["screen 16_9.png", 443 , "logo_icons_16_9", 224 , 224 ]] ;
-			$screen_rand_1 = rand(0,2);
-			$screen_rand_2 = rand(0,2);
-			//~ $screen_rand_2 = $screen_rand_1;
-			//~ $screen_rand_1 = 0;
-			//~ $screen_rand_2 = 0;
-		?>
+
 		
 		</div>
 
