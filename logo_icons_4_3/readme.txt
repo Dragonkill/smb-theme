@@ -1,0 +1,1 @@
+Resolution of an icon : 305x222
