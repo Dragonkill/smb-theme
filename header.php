@@ -35,7 +35,7 @@
 			//~ $screen_rand_2 = $screen_rand_1;
 			//~ $screen_rand_1 = 0;
 			//~ $screen_rand_2 = 0;
-
+		?>
 		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home" style="width : <?php echo ( $screen_logo_array[$screen_rand_1][1] + $screen_logo_array[$screen_rand_2][1] + 489 - 2) ?>px;" >
 		<?php
 
