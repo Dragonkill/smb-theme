@@ -31,11 +31,11 @@ function shared_memory_blog_setup() {
 	$path = get_template_directory() . '/languages';
     $result = load_theme_textdomain( 'shared-memory-blog', get_template_directory() . '/languages' );
 
-    if ( $result )
+    if ( $result != true)
         return;
 
    $locale = apply_filters( 'theme_locale', get_locale(), 'my_theme' );
-   die( "Could not find $path/$locale.mo." );
+   //die( "Could not find $path/$locale.mo." );
 
 	/**
 	 * Add default posts and comments RSS feed links to head
