@@ -1021,14 +1021,20 @@ ul.nav-menu li a {
 }
 
 .site-content h1 {
-	font-size:350%;
+	font-size:370%;
 }
 
 .site-content h2 {
-	font-size: 180%;
+	font-size: 260%;
 } 
 .site-content h3 {
-	font-size: 110%;
+	font-size: 190%;
+} 
+.site-content h4 {
+	font-size: 140%;
+}
+.site-content h5 {
+	font-size: 115%;
 } 
 
 .entry-title a {
