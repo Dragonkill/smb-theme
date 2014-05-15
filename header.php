@@ -38,7 +38,7 @@
 			//~ $screen_rand_2 = 0;
 			
 			
-			
+			/*
 			//Choose a random icon for each screen
 			$images = array();
 			if ( $img_dir = @opendir(get_theme_root() . "/" . get_template() . "/" . $screen_logo_array[$screen_rand_1][2]) )
@@ -66,28 +66,32 @@
 				}
 			}
 			
+			*/
+			
+			$images = glob(get_theme_root() . "/" . get_template() . "/" . $screen_logo_array[$screen_rand_1][2] . "/*.{jpg,png,gif}", GLOB_BRACE);
+			if(sizeof($images) > 0)
+			{
+				$rand = array_rand($images);
+				$image_rand_1 = basename($images[$rand]);
+				if(sizeof($images) > 1)
+				{
+					unset($images[$rand]);
+					$images=array_values($images);
+				}
+				if($screen_rand_1 == $screen_rand_2) $image_rand_2 = basename($images[array_rand($images)]);
+			}
+			
+			
 			if($screen_rand_1 != $screen_rand_2)
 			{
-				$images = array();
-				if ( $img_dir = @opendir(get_theme_root() . "/" . get_template() . "/" . $screen_logo_array[$screen_rand_2][2]) )
+				$images = glob(get_theme_root() . "/" . get_template() . "/" . $screen_logo_array[$screen_rand_2][2] . "/*.{jpg,png,gif}", GLOB_BRACE);
+				if(sizeof($images) > 0)
 				{
-					while ( false !== ($img_file = readdir($img_dir)) )
-					{
-						// checks for gif, jpg, png
-						if ( preg_match("/(\.gif|\.jpg|\.png)$/", $img_file) )
-						{
-							$images[] = $img_file;
-						}
-					}
-					closedir($img_dir);
-					
-					if(sizeof($images) > 0)
-					{
-						$rand = rand(0,sizeof($images) - 1);
-						$image_rand_2 = $images[$rand];
-					}
+					$rand = array_rand($images);
+					$image_rand_2 = basename($images[$rand]);
 				}
 			}
+
 		?>
 		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home" style="width : <?php echo ( $screen_logo_array[$screen_rand_1][1] + $screen_logo_array[$screen_rand_2][1] + 489 - 2) ?>px;" >
 		<?php
