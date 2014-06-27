@@ -976,6 +976,7 @@ ul.nav-menu li a {
 .widget-area ul {
 	list-style-type:none;
 	font-family: Verdana , Arial , sans serif;
+	margin-right : 1em;
 /*
 	font-weight: bold;
 */
@@ -999,6 +1000,10 @@ ul.nav-menu li a {
 	color: #92CDED;
 }
 
+.widget-area ul li {
+	margin-top : 7px;
+	line-height : 1.1;
+}
 
 .post-date {
 	color: #666666;
